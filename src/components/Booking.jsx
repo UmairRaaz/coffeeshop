@@ -3,7 +3,7 @@ import AnimatedText from "./AnimatedText";
 
 const Booking = () => {
   return (
-    <div id="booking" className="max-w-7xl mx-auto h-auto flex">
+    <div id="booking" className="max-w-7xl mx-auto h-auto flex mb-10">
       <div className="w-[80%] mx-auto flex flex-col gap-20 md:gap-0 border-b border-[#c8956d] p-4">
         <div className="w-full mx-auto py-4 flex flex-col md:flex-row justify-between h-32">
           <div className="text-center lg:text-left">

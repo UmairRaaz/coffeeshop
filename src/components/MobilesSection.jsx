@@ -2,11 +2,10 @@ import React from "react";
 import MobileOne from "./MobileOne";
 import MobileTwo from "./MobileTwo";
 import AnimatedText from "./AnimatedText";
-import { motion } from "framer-motion";
 
 const MobilesSection = () => {
   return (
-    <div className="max-w-7xl mx-auto min-h-screen flex ">
+    <div className="max-w-7xl mx-auto flex mb-10">
       <div className="w-[80%] mx-auto flex flex-col md:flex-row p-4 mt-10 md:mt-0 border-b border-[#c8956d] pb-10">
         <div className="lg:w-auto pr-4 flex flex-col md:flex-row items-center justify-between">
           <MobileOne />

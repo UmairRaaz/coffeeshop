@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className="max-w-7xl mx-auto h-screen pt-0 md:pt-2 overflow-hidden"
+      className="max-w-7xl mx-auto pb-10  pt-0 md:pt-2 overflow-hidden"
     >
       <div className="flex justify-between flex-col md:flex-row items-center w-[80%] mx-auto border-b border-[#c8956d] gap-10 md:gap-0 pb-0 md:pb-8">
         <div className="mt-20 md:mt-0 ">

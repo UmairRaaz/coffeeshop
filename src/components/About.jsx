@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="max-w-7xl mx-auto h-screen overflow-x-hidden"
+      className="max-w-7xl mx-auto overflow-x-hidden pb-10"
     >
       <div className="w-[80%] mx-auto flex flex-col lg:flex-row  p-4  justify-between border-b border-[#c8956d] items-center md:py-36">
         <div className="lg:w-3/5 pr-4 md:mb-10">
@@ -27,7 +27,7 @@ const About = () => {
           </motion.p>
         </div>
         <motion.div
-          initial={{ x: 510 }}
+          initial={{ x: "100%" }}
           whileInView={{ x: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
           className="lg:w-2/5 lg:mt-0 relative md:mt-0 mt-10"
