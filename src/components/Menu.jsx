@@ -7,7 +7,7 @@ const Menu = () => {
   return (
     <div
       id="menu"
-      className="max-w-7xl mx-auto pb-10"
+      className="max-w-7xl mx-auto pb-10 overflow-hidden"
     >
       <div className="w-[80%] mx-auto flex justify-between items-center md:flex-row border-b border-[#c8956d] flex-col-reverse my-0 gap-36 md:gap-0 pb-28 md:mt-32  ">
         <div className="flex flex-col md:flex-row md:gap-6 gap-28 items-center md:items-start w-auto ">

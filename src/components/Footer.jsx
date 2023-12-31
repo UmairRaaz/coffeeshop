@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className=" text-[#b7a69d] p-8 max-w-7xl mx-auto h-auto pt-20  flex">
+    <footer className=" text-[#b7a69d] p-8 max-w-7xl mx-auto h-auto pt-20 mb-10  flex">
       <div className="w-[80%] mx-auto grid grid-cols-2 gap-8 sm:grid-cols-2 md:grid-cols-4">
         {/* Company Name */}
         <div>
